@@ -3,20 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <title>Videogame Console Project</title>
 </head>
 <body>
   <h1>Videogame Console</h1>
 
-  <h2>Introduction</h2>
+  <h2>Table of Contents</h2>
   <ul>
-    <li><strong>What it does:</strong> This project is a videogame console that allows users to play classic games.</li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#general-description">General Description</a></li>
+    <li><a href="#hardware-design">Hardware Design</a></li>
+    <li><a href="#software-design">Software Design</a></li>
+    <li><a href="#results-obtained">Results Obtained</a></li>
+    <li><a href="#conclusions">Conclusions</a></li>
+    <li><a href="#source-code-and-resources">Source Code and Other Resources</a></li>
+    <li><a href="#demo-video">Demo Video</a></li>
+    <li><a href="#journal">Journal</a></li>
+    <li><a href="#bibliography-resources">Bibliography/Resources</a></li>
+  </ul>
+
+  <h2 id="introduction">Introduction</h2>
+  <ul>
+    <li><strong>What it does:</strong> This project is a videogame console that allows users to play classic games such as Snake, Tetrix, and Pong.</li>
     <li><strong>Purpose:</strong> To create a retro-inspired gaming experience using simple hardware and custom programming.</li>
     <li><strong>Idea behind it:</strong> The idea originated from the desire to combine classic games with the challenge of building an embedded system that interacts with both hardware and software.</li>
     <li><strong>Why it’s useful:</strong> The project offers an engaging and interactive way to explore game design, electronics, and programming, and serves as a fun and educational experience for both the developer and end users.</li>
   </ul>
 
-  <h2>General Description</h2>
+  <h2 id="general-description">General Description</h2>
   <p><strong>Block Diagram of the Project:</strong></p>
   <ul>
     <li><strong>Hardware Modules:</strong>
@@ -38,7 +52,7 @@
   <!-- TODO: Add a block diagram image -->
   <p><img src="images/block_diagram_console.png" alt="Block Diagram" /></p>
 
-  <h2>Hardware Design</h2>
+  <h2 id="hardware-design">Hardware Design</h2>
   <p><strong>List of Components:</strong></p>
   <ul>
     <li><strong>Microcontroller:</strong> Arduino Uno</li>
@@ -51,7 +65,7 @@
   <!-- TODO: Add electrical schematics -->
   <p><img src="images/electrical_schematic_console.png" alt="Electrical Schematic" /></p>
 
-  <h2>Software Design</h2>
+  <h2 id="software-design">Software Design</h2>
   <ul>
     <li><strong>Development Environment:</strong> Arduino IDE</li>
     <li><strong>Libraries Used:</strong>
@@ -76,7 +90,7 @@
     </li>
   </ul>
 
-  <h2>Results Obtained</h2>
+  <h2 id="results-obtained">Results Obtained</h2>
   <p><strong>Functionality:</strong></p>
   <ul>
     <li>Successfully displays games on the LED matrix.</li>
@@ -89,10 +103,10 @@
     <li>Adjustable difficulty levels for Snake and Pong.</li>
   </ul>
 
-  <h2>Conclusions</h2>
+  <h2 id="conclusions">Conclusions</h2>
   <p>This project successfully combines hardware and software to create an engaging retro gaming experience. It demonstrates the potential of embedded systems in interactive applications. The console is portable, cost-effective, and provides a solid foundation for further development and customization.</p>
 
-  <h2>Source Code and Other Resources to Include on GitHub</h2>
+  <h2 id="source-code-and-resources">Source Code and Other Resources</h2>
   <p><strong>Suggested Directory Structure:</strong></p>
   <ul>
     <li><strong>src/</strong>: Contains source code for the project.</li>
@@ -101,15 +115,15 @@
     <li><strong>README.md</strong>: This document.</li>
   </ul>
 
-  <h2>Demo Video</h2>
+  <h2 id="demo-video">Demo Video</h2>
   <!-- TODO: Add a demo video link -->
   <p>Embed your video link here (e.g., <a href="#">YouTube Demo Video</a>).</p>
 
-  <h2>Journal</h2>
+  <h2 id="journal">Journal</h2>
   <!-- TODO: Add progress tracking details -->
   <p>Add a section to document progress, including dates, milestones, and any challenges encountered during the development process.</p>
 
-  <h2>Bibliography/Resources</h2>
+  <h2 id="bibliography-resources">Bibliography/Resources</h2>
   <ul>
     <li><strong>Software Resources:</strong>
       <ul>
